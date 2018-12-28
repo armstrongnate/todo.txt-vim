@@ -44,7 +44,7 @@ syntax  match  TodoContext    '\(^\|\W\)@[^[:blank:]]\+'  contains=NONE
 " Other priority colours might be defined by the user
 highlight  default  link  TodoDone       Comment
 highlight  default  link  TodoPriorityA  Constant
-highlight  default  link  TodoPriorityB  Operator
+highlight  default  link  TodoPriorityB  cType
 highlight  default  link  TodoPriorityC  Identifier
 highlight  default  link  TodoDate       PreProc
 highlight  default  link  TodoProject    String
